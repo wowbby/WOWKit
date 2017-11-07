@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WOWKit_Example' do
+  pod 'WOWKit', :path => '../'
+
+  target 'WOWKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

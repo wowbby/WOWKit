@@ -1,0 +1,6 @@
+framework module WOWKit {
+  umbrella header "WOWKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
